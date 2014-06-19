@@ -6,29 +6,11 @@
 </head>
 <body>
 
-<script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+Tutorial Links
 
-<script type="text/javascript">
-	var data = [4, 8, 15, 16, 23, 42];
-
-	var x = d3.scale.linear()
-		.domain([0, d3.max(data)])
-		.range([0, 420]);
-	
-	d3.select(".chart")
-	  .selectAll("div")
-		.data(data)
-	  .enter().append("div")
-		.style("width", function(d) { return x(d) + "px"; })
-		.text(function(d) { return d; });
-	
-</script>
-
-
-<div class="chart"></div>
-
-
-Hello D3 World
+<ul>
+<li><a href="d3-tutorial.html">D3 Tutorial 1</a></li>
+<li><a href="c3-tutorials.html">C3 Tutorials </a></li>
 
 </body>
 </html>
