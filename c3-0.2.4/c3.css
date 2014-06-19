@@ -76,6 +76,11 @@
 .c3-line {
   stroke-width: 1px;
 }
+
+#chart2 .c3-line-data2{
+	stroke-width: 5px;
+}
+
 /*-- Point --*/
 
 .c3-circle._expanded_ {
