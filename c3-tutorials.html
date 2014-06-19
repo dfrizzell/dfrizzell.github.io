@@ -38,13 +38,16 @@ var chart2 = c3.generate({
         ['data2', 50, 20, 10, 40, 15, 25]
       ],
 	  axes:{
-		  data2: 'y2' //ADD
+		  data2: 'y2'
+	  },
+	  types: {
+		  data2: 'bar'
 	  }
     },
 	axis:{
 		
 		y: {
-			lablel: {
+			label: {
 				text: 'Blue Y Label',
 				position: 'outer-middle'
 			}
