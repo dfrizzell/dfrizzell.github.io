@@ -24,6 +24,7 @@ var chart = c3.generate({
 });
 </script>
 
+<p>Time for a second chart<br><br></p>
 
 <div id="chart2"></div>
 
@@ -41,10 +42,36 @@ var chart2 = c3.generate({
 	  }
     },
 	axis:{
+		
+		y: {
+			lablel{
+				text: 'Blue Y Label'
+				position: 'outer-middle'
+			}
+		},
+		
 		y2: {
-			show: true //ADD
+			show: true,
+			label: {
+				text: 'Orange Y2 Label'
+				position: 'outer-middle'
+			}
 		}
 	}
 	
 });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
