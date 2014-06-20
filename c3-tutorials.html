@@ -67,10 +67,31 @@ var chart2 = c3.generate({
 	}
 	
 });
-
-
 </script>
 
+<p>Stacked Bar Chart Tutorial<br><br></p>
+
+<div id="chart3"></div>
+
+<script type="text/javascript">
+
+var chart3 = c3.generate({
+	bindto: '#chart3',
+	data: {
+		columns: [
+			['data1', 100, 200, 200, 300, 150, 250],
+            ['data2', 20, 30, 40, 20, 15, 50],
+            ['data3', 5, 10, 15, 5, 10, 12]
+		],
+		type: 'bar',
+		groups: [
+			['data2','data3']
+		]
+	},
+	
+});
+
+</script>
 
 
 
