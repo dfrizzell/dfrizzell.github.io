@@ -91,7 +91,18 @@ var chart3 = c3.generate({
 	
 });
 
+setTimeout(function(){
+	chart.groups([['data1', 'data2', 'data3']])
+}, 5000);
+
+setTimeout(function(){
+	chart.groups([['data1', 'data2'],['data3']])
+}, 5000);
+
+
 </script>
+
+<p>End of Tutorial<br><br><br></p>
 
 
 
